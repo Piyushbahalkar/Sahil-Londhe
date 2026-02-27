@@ -5,7 +5,7 @@ public class CountNoOfDigits {
 
     }
     static int findNumbers(int[] nums){
-       int count = 0;
+       int count = 1;
        for (int num : nums){
            if (even(num)){
                count++;
